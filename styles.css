@@ -1,0 +1,104 @@
+body{
+    
+}
+
+.logo{
+    padding-left: 50px;
+    padding-right: 350px;
+    margin-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+}
+nav li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+.first{
+    display: flex;
+    background-color: rgb(56, 56, 139);
+    color: white;
+}
+
+.present h1{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.present{
+    margin-left: 150px;
+    text-align: left;
+}
+.present a{
+    background-color: blueviolet;
+    border-radius: 58px;
+    padding: 10px;
+    
+}
+.image2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+}
+
+.second{
+    text-align: center;
+}
+
+.services{
+    display: flex;
+    width: 1044px;
+    height: 396px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.service1{
+    width: 241px;
+    height: 371px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    margin: auto;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.20);
+   
+}
+.service1 a{
+    background-color: purple;
+    width: 120px;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+.lien{
+    text-align: center;
+    background-color: purple;
+    width: 120px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+form{
+    
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
+    background: #F2F6FC;
+}
+footer{
+    display: flex;
+    width: 1327px;
+    height: 124px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #2D5298;
+}
